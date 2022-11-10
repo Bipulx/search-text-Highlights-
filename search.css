@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Inter|Dosis&display=swap');
+
+/* Crucial */
+.highlight {
+  background-color: #EEF43B;
+}
+
+/* Just for styling */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 2%;
+}
+
+.search-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto 20px auto;
+  max-width: 450px;
+  padding: 0 2%;
+}
+
+label {
+  color: #535353;
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+input {
+  background: #fff;
+  border: 1px solid #535353;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  height: 38px;
+  line-height: 38px;
+  outline: none;
+  padding: 0 10px;
+  transition: all 0.5s;
+  width: 100%;
+}
+
+input:focus {
+  border: 1px solid #3a5bd3;
+  box-shadow: 0 0 4px 0 #7d90de;
+}
+
+blockquote {
+  background-color: #f1f1f1;
+  border-radius: 0 4px 4px 0;
+  color: #515151;
+  font-style: italic;
+  line-height: 1.7;
+  margin: 0;
+  padding: 20px 60px 20px 20px;
+  position: relative;
+}
+
+blockquote::before {
+  color: #ccc;
+  content: '”';
+  font-size: 80px;
+  position: absolute;
+  right: 30px;
+  top: -20px;
+}
+
+figcaption {
+  color: #aaa;
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
